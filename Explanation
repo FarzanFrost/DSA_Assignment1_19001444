@@ -1,0 +1,21 @@
+To solve this problem I have chosen the Horspool algorithm. The reason for this is mentioned below.
+
+The moment I read the question i ignored the naive algorithm as it takes O(nm) time complexity. at the beginning I was going to use
+rabin karp algorithm, as it uses hashing, I thought i could get the maximum  and minimum hash value that a pattern with a wild-card could get
+and then is the selected window gives a hash value in between the maximum and minimum, then I thought it would match, but after experimenting
+them on a piece of paper, I understood the logic is incorrect. And another reason i didn't use rabin karp algorithm is since the number of
+characters in the alphabet are not known, there we might have to spend more time in determining the number of alphabet (or the value of d).
+I can't use the KMP algorithm as it works on prefix and suffix, where in this problem the pattern contains a wild-card ( "_" ), this makes it
+difficult to work with prefix and suffix. To get a better understanding on boyer moore with bad character rule, extended bad character rule,
+and good suffix shift rule I had to go through the notes over and over. with that I also concentrated on Horspool algorithm. As in boyer
+moore we have to move to the rightmost from the left of the current positioned character, I thought this might complicated as I have to
+consider the wild-card and the move. After eliminating these algorithms I did some calculations to check how would the Horspool work in this
+specific problem and I decided to go with horspool algorithm to solve this problem. As the horspool algorithm moves relative to the rightmost
+character in the selected window, the efficiency if high.
+
+The algorithm in the file "stringMatching.py" has comments explaining the steps of the algorithm.
+
+According to my algorithm, one thing that was clear to me is, a pattern which has a wild card in the position one before the last character
+(e.g. "a_b", "aroi_t", "laksdroi_asldkfj_p") will make this algorithm to run similar to the naive string matching algorithm, that is,
+in this case the pattern will shift only by one character the most And this is because the wild-card matches with all characters. But most
+other type of patterns shift by more than one character.

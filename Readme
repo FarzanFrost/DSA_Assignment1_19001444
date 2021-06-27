@@ -1,0 +1,11 @@
+Horspool Algorithm
+
+There are two python files named "stringMatching" and "TestData", "stringMatching" file has the code for the algorithm and "TestData" file
+has codes to run the test data in the "inputTestData" text file, "TestData" file reads the text file and runs the algorithm and gives output
+in the terminal. Even though the code is python, there is no need to run the code in python, I have converted the .py file into .exe file so
+that a person with windows can run it without installing python in their computer.
+
+To go through the codes we need to open "stringMatching.py" and "TestData.py" files.
+
+To see the output double click on the "Assignment1_19001444.exe" with the yellow icon. And a terminal will pop up, scroll up to see output
+from the beginning. then enter any key to exit the terminal. The output given by this program are the result of 15 test cases.
