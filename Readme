@@ -1,11 +1,21 @@
 Horspool Algorithm
 
 There are two python files named "stringMatching" and "TestData", "stringMatching" file has the code for the algorithm and "TestData" file
-has codes to run the test data in the "inputTestData" text file, "TestData" file reads the text file and runs the algorithm and gives output
-in the terminal. Even though the code is python, there is no need to run the code in python, I have converted the .py file into .exe file so
-that a person with windows can run it without installing python in their computer.
+has codes to run the test data in the "inputTestData" text file, "TestData" file reads the text file and runs the algorithm and gives the
+output in the terminal. Even though the code is python, there is no need to run the code in python if the machine has windows as it's OS,
+I have converted the .py file into .exe file so that a person with windows can run it without installing python in their computer and to
+view the code simply open the python file as text if python is not installed.
+In case the machine doesn't have windows then the machine should have python installed to view and run the code.
+
+The test input are in the text file named "inputTestData" all text strings and pattern strings are separated by a space. Each line is a
+new text case. There are about 15 test cases in this file.
 
 To go through the codes we need to open "stringMatching.py" and "TestData.py" files.
 
 To see the output double click on the "Assignment1_19001444.exe" with the yellow icon. And a terminal will pop up, scroll up to see output
 from the beginning. then enter any key to exit the terminal. The output given by this program are the result of 15 test cases.
+
+P.S. Since the whole folder is too large to upload into the vle. I will be uploading only the relevant files into the vle. And I'll upload
+this folder into github and provide the link below.
+
+https://github.com/FarzanFrost/DSA_Assignment1_19001444
